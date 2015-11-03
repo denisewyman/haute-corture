@@ -1,0 +1,42 @@
+/* DESIGN IN BROWSER!
+Color Pallette
+----
+Primary Color (deep pruple): #73404E
+Secondary (deep green): #8C8669
+Accent (rose) :#8C4F5F
+
+Typography
+----
+Headline: font-family: 'Old Standard TT', serif;
+Body Copy: font-family: 'Cardo', serif;
+
+Backgrounds
+---
+redpurple: #822B5E
+deep rose: #AC3965
+*/
+
+/*Global or Sitewide*/
+body {
+    background: #AC3965;
+}
+
+/*Typography*/
+    h1, h2 {
+        font-family: 'Old Standard TT', serif;
+        color: ALICEBLUE;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    
+ p, blockquote  {
+        font-family: 'Cardo', serif;
+     font-size: 1.5em;
+     line-height: 1.5em;
+ }
+
+blockquote {
+    font-size: 2em;
+    padding: 4em;
+    text-align: center;
+}
